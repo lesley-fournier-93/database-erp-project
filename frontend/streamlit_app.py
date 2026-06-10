@@ -5,34 +5,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 import streamlit as st
-from frontend.utils import daten_laden, seiten_sidebar
+from frontend.utils import daten_laden, seiten_kopf
 
 st.set_page_config(
-    page_title="Compu-Global-Hyper-Meganet - ERP",
+    page_title="Home · Compu-Global-Hyper-Meganet ERP",
+    page_icon="🏠",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-seiten_sidebar()
-
-st.markdown(
-    """
-    <div style="
-        border-left: 5px solid #1E3D59;
-        padding: 8px 0 8px 16px;
-        margin-bottom: 20px;
-    ">
-        <div style="font-size: 24px; font-weight: 700; color: #1E3D59;">
-            Kennzahlen-Übersicht
-        </div>
-        <div style="font-size: 13px; color: #666; margin-top: 2px;">
-            Compu-Global-Hyper-Meganet - ERP
-        </div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
+seiten_kopf("Home", "Kennzahlen, Lagerwarnungen und offene Vorgänge auf einen Blick")
 
 c1, c2, c3, c4, c5 = st.columns(5)
 

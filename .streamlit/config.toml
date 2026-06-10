@@ -1,9 +1,12 @@
 [theme]
-primaryColor        = "#1E3D59"
-backgroundColor     = "#F7F5F0"
-secondaryBackgroundColor = "#E2DED6"
-textColor           = "#1A1A1A"
-font                = "sans serif"
+primaryColor = "#0EA5E9"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#EEF4FB"
+textColor = "#0F172A"
+font = "sans serif"
+
+[client]
+showSidebarNavigation = false
 
 [server]
 headless = true
