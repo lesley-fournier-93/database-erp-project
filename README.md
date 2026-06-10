@@ -19,6 +19,9 @@ The application demonstrates how backend APIs, database structures and an intera
 
 The user interface was redesigned with a clean and modern dashboard layout to make the project suitable for a professional GitHub and portfolio presentation.
 
+<img width="1778" height="842" alt="image" src="https://github.com/user-attachments/assets/51d8848a-c7b7-410a-9bdd-93ea5103058b" />
+
+
 ---
 
 ## 🎓 Project Background
