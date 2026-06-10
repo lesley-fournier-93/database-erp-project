@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# Secrets - NIEMALS ins Repository!
+.env
+.env.production
+.env.*.local
+
+# Diese Dateien DUERFEN ins Repo (kein Passwort drin):
+!.env.example
+!.env.development
+!.env.testing
+
+# Logs und Exporte
+logs/*.log
+exports/*
+!logs/.gitkeep
+!exports/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Coverage
+.coverage
+htmlcov/
+coverage.json
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
